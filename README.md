@@ -1,6 +1,6 @@
 # Simple Github
 
-This is a demo project I used to represent a boilerplate project using current technologies od Android (even they're not latest trending)
+This is a demo project I used to represent a boilerplate project using current technologies of Android (even they're not latest trending)
 
 ## Requirement
 
