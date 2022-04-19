@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Text_Header">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/size_text_header</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Text_Regular">
+        <item name="android:textSize">@dimen/size_text_regular</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>

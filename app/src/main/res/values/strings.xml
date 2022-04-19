@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Simple Github</string>
+    <string name="screen_search_text_search_hint">Enter any Github user\'s name...</string>
+    <string name="screen_search_text_empty">No user found</string>
+    <string name="followers">%1$s follower(s)</string>
+    <string name="following">%1$s following</string>
+</resources>

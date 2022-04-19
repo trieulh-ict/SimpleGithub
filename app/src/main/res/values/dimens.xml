@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_logo_width">100dp</dimen>
+    <dimen name="size_logo_height">100dp</dimen>
+    <dimen name="padding_screen_default">16dp</dimen>
+    <dimen name="padding_item_default">16dp</dimen>
+    <dimen name="size_avatar_width">120dp</dimen>
+    <dimen name="size_avatar_height">120dp</dimen>
+    <dimen name="size_text_header">24sp</dimen>
+    <dimen name="size_text_regular">16sp</dimen>
+    <dimen name="size_avatar_medium_width">40dp</dimen>
+    <dimen name="size_avatar_medium_height">40dp</dimen>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_auth"
+    app:startDestination="@id/Simple.Journey.Dashboard.Search">
+
+    <fragment
+        android:id="@+id/Simple.Journey.Dashboard.Search"
+        android:name="io.trieulh.simplegithub.journey.dashboard.screens.search.SearchScreenFragment"
+        tools:layout="@layout/fragment_screen_search" />
+
+    <fragment
+        android:id="@+id/Simple.Journey.Dashboard.Detail"
+        android:name="io.trieulh.simplegithub.journey.dashboard.screens.detail.DetailScreenFragment"
+        tools:layout="@layout/fragment_screen_detail">
+        <argument
+            android:name="detail"
+            app:argType="io.trieulh.simplegithub.journey.dashboard.screens.detail.DetailArg"
+            app:nullable="false" />
+    </fragment>
+
+    <action
+        android:id="@+id/action_to_Detail"
+        app:destination="@id/Simple.Journey.Dashboard.Detail"
+        app:enterAnim="@anim/nav_default_enter_anim"
+        app:exitAnim="@anim/nav_default_exit_anim"
+        app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+        app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+</navigation>
